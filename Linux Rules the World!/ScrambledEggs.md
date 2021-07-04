@@ -1,4 +1,4 @@
-> Scrambled Eggs
+> Scrambled Eggs (200 points)
 >
 > Now you're asking me what are all of these strings? This file looks like scrambled aggs to me. Those crazy Cybots
 always try to make it harder.
