@@ -1,11 +1,10 @@
 > Shifting (300 points)
 >
-> The recently captured file seryer contained a mysterious file that was probably used for getting access to other reséurces. Can
-you find the correct password
+> The recently captured file server contained a mysterious file that was probably used for getting access to other resources. Can you find the correct password?
 
 The challenge provides us with a "Shifting.exe" executable file.
 
-Opening the executable file with ida-free, we got found a potential flag.
+Opening the executable file with ida-free, we found a potential flag.
 
 <p align="center">
     <img src="screenshots/Shifting-1.png" style="width:70%; border: 0.8px solid black" caption="Output of ida-free" /><br/>
@@ -14,7 +13,7 @@ Opening the executable file with ida-free, we got found a potential flag.
 We can get the full flag by navigating to its address
 
 <p align="center">
-    <img src="screenshots/ScrambledEgg-2.png" style="width:70%; border: 0.8px solid black" caption="Output of ida-free" /><br/>
+    <img src="screenshots/Shifting-2.png" style="width:70%; border: 0.8px solid black" caption="Output of ida-free" /><br/>
 </p>
 
 Looking at the number, we noticed some pattern:
@@ -30,7 +29,7 @@ for i in num:
     print(chr(int(int(i)/16)), end="") 
 ```
 <p align="center">
-    <img src="screenshots/ScrambledEgg-3.png" style="width:70%; border: 0.8px solid black" caption="Output of the script" /><br/>
+    <img src="screenshots/Shifting-3.png" style="width:70%; border: 0.8px solid black" caption="Output of the script" /><br/>
 </p>
 
 > Flag: CDDC21{57r1n67h30ry}
