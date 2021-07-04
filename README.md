@@ -8,7 +8,7 @@ Writeups for the challenges that iWanFlagz solved in CDDC2021.
 2. Post Mortem
 
 3. A malicious puzzle
-- [Shifting](./A malicious puzzle/Shifting.md)
+- [Shifting](./A%20malicious%20puzzle/Shifting.md)
 
 4. Linux Rules the World!
-- [Scrambled Eggs](./Linux Rules the World!/ScrambledEggs.md)
+- [Scrambled Eggs](./Linux%20Rules%20the%20World!/ScrambledEggs.md)
