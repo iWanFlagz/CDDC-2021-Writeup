@@ -10,14 +10,14 @@ Opening the executable file with ida-free, we found a potential flag.
     <img src="screenshots/Shifting-1.png" style="width:70%; border: 0.8px solid black" caption="Output of ida-free" /><br/>
 </p>
 
-We can get the full flag by navigating to its address
+We can get the full flag by navigating to its address.
 
 <p align="center">
     <img src="screenshots/Shifting-2.png" style="width:70%; border: 0.8px solid black" caption="Output of ida-free" /><br/>
 </p>
 
 Looking at the number, we noticed some pattern:
-1072 / 16 = 67 (which is C in ascii), 1088 / 16 = 68 (which is D ascii)
+1072 / 16 = 67 (which is C in ascii), 1088 / 16 = 68 (which is D in ascii)
 
 So, the first four number is CDDC.
 
