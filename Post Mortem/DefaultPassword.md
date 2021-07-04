@@ -19,4 +19,6 @@ Since the title of the challenge is related to password, we try to dump the pass
     <img src="screenshots/DefaultPassword-2.png" style="width:70%; border: 0.8px solid black" caption="Output of the command" /><br/>
 </p>
 
+Since the title of the challenge is "Default Password", we guess the flag is Th1s_i$_A_L0ng_p@s$w0rd
+
 > Flag: CDDC21{Th1s_i$_A_L0ng_p@s$w0rd}
