@@ -12,7 +12,7 @@ The content looks like base64 encoded text.
 
 `$ cat data.txt | base64 -d > 1`
 
-After base64 decode the file, we got a hexdump.
+After we decoded the file, we got a hexdump.
 
 <p align="center">
     <img src="screenshots/LookCloser-2.png" style="width:70%; border: 0.8px solid black" caption="Output of the command" /><br/>
