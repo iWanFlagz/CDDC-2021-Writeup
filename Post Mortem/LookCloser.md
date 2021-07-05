@@ -5,7 +5,7 @@
 The challenge provides us a "data.txt" file.
 
 <p align="center">
-    <img src="screenshots/LookCloser-1.png" style="width:70%; border: 0.8px solid black" caption="Output of the command" /><br/>
+    <img src="screenshots/LookCloser-1.png" style="width:70%; border: 0.8px solid black" caption="Content of data.txt" /><br/>
 </p>
 
 The content looks like base64 encoded text.
@@ -15,7 +15,7 @@ The content looks like base64 encoded text.
 After we decoded the file, we got a hexdump.
 
 <p align="center">
-    <img src="screenshots/LookCloser-2.png" style="width:70%; border: 0.8px solid black" caption="Output of the command" /><br/>
+    <img src="screenshots/LookCloser-2.png" style="width:70%; border: 0.8px solid black" caption="Content of 1" /><br/>
 </p>
 
 Next, we convert the hexdump into binary.
@@ -23,7 +23,7 @@ Next, we convert the hexdump into binary.
 `$ xxd -r 1 > 2`
 
 <p align="center">
-    <img src="screenshots/LookCloser-3.png" style="width:70%; border: 0.8px solid black" caption="Output of the command" /><br/>
+    <img src="screenshots/LookCloser-3.png" style="width:70%; border: 0.8px solid black" caption="Content of 2" /><br/>
 </p>
 
 It seems like the file signature is not correct.
@@ -34,13 +34,13 @@ Modify the file signature:<br>
 We change the file signature to .ELF instead of CDDC
 
 <p align="center">
-    <img src="screenshots/LookCloser-4.png" style="width:70%; border: 0.8px solid black" caption="Output of the command" /><br/>
+    <img src="screenshots/LookCloser-4.png" style="width:70%; border: 0.8px solid black" caption="View 2 using Hexeditor" /><br/>
 </p>
 
 We got the flag when we execute the binary.
 
 <p align="center">
-    <img src="screenshots/LookCloser-5.png" style="width:70%; border: 0.8px solid black" caption="Output of the command" /><br/>
+    <img src="screenshots/LookCloser-5.png" style="width:70%; border: 0.8px solid black" caption="Output of the program" /><br/>
 </p>
 
 > Flag: CDDC21{C@n_Y0u_F1nD_mE?}
